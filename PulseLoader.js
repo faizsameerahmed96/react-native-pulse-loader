@@ -88,19 +88,6 @@ export default class LocationPulseLoader extends React.Component {
 	}	
 }
 
-LocationPulseLoader.propTypes = {
-  interval: React.PropTypes.number,
-  size: React.PropTypes.number,
-  pulseMaxSize: React.PropTypes.number,
-  avatar: React.PropTypes.string.isRequired,
-  avatarBackgroundColor: React.PropTypes.string,
-  pressInValue: React.PropTypes.number,
-  pressDuration: React.PropTypes.number,
-  borderColor: React.PropTypes.string,
-  backgroundColor: React.PropTypes.string,
-  getStyle: React.PropTypes.func,
-};
-
 LocationPulseLoader.defaultProps = {
   interval: 2000,
   size: 100,
